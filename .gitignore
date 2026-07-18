@@ -31,3 +31,5 @@ vendor/
 
 # Temporary
 tmp/
+clusterpilot.zip
+*.zip
