@@ -6,7 +6,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/Hardik19102003/clusterpilot/internal/resources/cluster"
+	"github.com/Hardik19102003/clusterpilot/internal/domain/cluster"
 )
 
 func main() {

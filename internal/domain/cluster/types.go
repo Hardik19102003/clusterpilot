@@ -4,8 +4,8 @@ type Cluster struct {
 	APIVersion string        `yaml:"apiVersion"`
 	Kind       string        `yaml:"kind"`
 	Metadata   Metadata      `yaml:"metadata"`
-	Spec        ClusterSpec   `yaml:"spec"`
-	Status      ClusterStatus `yaml:"status"`
+	Spec       ClusterSpec   `yaml:"spec"`
+	Status     ClusterStatus `yaml:"status"`
 }
 
 type Metadata struct {
@@ -13,10 +13,10 @@ type Metadata struct {
 }
 
 type ClusterSpec struct {
-	KubernetesVersion string             `yaml:"kubernetesVersion"`
-	ControlPlane      ControlPlaneSpec   `yaml:"controlPlane"`
-	Workers           WorkerSpec         `yaml:"workers"`
-	Network           NetworkSpec        `yaml:"network"`
+	KubernetesVersion string           `yaml:"kubernetesVersion"`
+	ControlPlane      ControlPlaneSpec `yaml:"controlPlane"`
+	Workers           WorkerSpec       `yaml:"workers"`
+	Network           NetworkSpec      `yaml:"network"`
 }
 
 type ControlPlaneSpec struct {

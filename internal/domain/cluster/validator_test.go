@@ -6,7 +6,7 @@ func TestValidateSuccess(t *testing.T) {
 
 	c := Cluster{
 		APIVersion: "clusterpilot.io/v1alpha1",
-		Kind: "Cluster",
+		Kind:       "Cluster",
 		Metadata: Metadata{
 			Name: "demo",
 		},
@@ -33,7 +33,7 @@ func TestInvalidProvider(t *testing.T) {
 
 	c := Cluster{
 		APIVersion: "clusterpilot.io/v1alpha1",
-		Kind: "Cluster",
+		Kind:       "Cluster",
 		Metadata: Metadata{
 			Name: "demo",
 		},
