@@ -1,0 +1,33 @@
+# Binaries
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build
+clusterpilot
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage
+coverage.out
+
+# Vendor
+vendor/
+
+# Environment
+.env
+
+# Temporary
+tmp/
