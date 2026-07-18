@@ -10,6 +10,8 @@ require (
 require (
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
+	golang.org/x/crypto v0.54.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
 	golang.org/x/time v0.14.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	k8s.io/apimachinery v0.36.2 // indirect
