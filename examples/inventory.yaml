@@ -1,0 +1,22 @@
+nodes:
+
+  - name: cp1
+    address: 192.168.1.10
+    user: ubuntu
+    port: 22
+    role: control-plane
+    privateKey: ~/.ssh/id_rsa
+
+  - name: worker1
+    address: 192.168.1.11
+    user: ubuntu
+    port: 22
+    role: worker
+    privateKey: ~/.ssh/id_rsa
+
+  - name: worker2
+    address: 192.168.1.12
+    user: ubuntu
+    port: 22
+    role: worker
+    privateKey: ~/.ssh/id_rsa
