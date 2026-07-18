@@ -1,0 +1,20 @@
+apiVersion: clusterpilot.io/v1alpha1
+kind: Cluster
+
+metadata:
+  name: production
+
+spec:
+  kubernetesVersion: v1.34.0
+
+  controlPlane:
+    replicas: 1
+
+  workers:
+    replicas: 3
+
+  network:
+    provider: cilium
+
+status:
+  phase: Pending
